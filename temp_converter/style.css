@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+ .body {
+    background-image: url("https://images.unsplash.com/photo-1641301365795-4e1010f4e2e0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2069&q=80");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 315%;
+}
+.converter {
+   background-image: url("https://i.pinimg.com/236x/f2/4a/40/f24a403540988f5333b2efa450852ef2.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   margin: 0;
+   width: 100vw;
+   height: 100vh;
+
+}
+
+label {
+   color: #245575;
+   letter-spacing: 1;
+   font-size: 18px;
+   padding-left: 10px;
+   line-height: 1.5;
+   font-family: 'Poppins', sans-serif;
+}
+
+input {
+  background-color: #303134;
+  color: snow;
+  border-radius: 15px;
+  border: 2px solid #3c4043;
+  font-size: 18px;
+  line-height: 1.5;
+  outline: none;
+  padding: 5px 10px 5px;
+}
+
+body{
+   margin:0;
+   overflow-x:hidden;
+   }
+   
+   .footer{
+   background:#000;
+   padding:30px 0px;
+   font-family: 'Play', sans-serif;
+   text-align:center;
+   }
+   
+   .footer .row{
+   width:100%;
+   margin:1% 0%;
+   padding:0.6% 0%;
+   color:gray;
+   font-size:0.8em;
+   }
+   
+   .footer .row a{
+   text-decoration:none;
+   color:gray;
+   transition:0.5s;
+   }
+   
+   .footer .row a:hover{
+   color:#fff;
+   }
+   
+   .footer .row ul{
+   width:100%;
+   }
+   
+   .footer .row ul li{
+   display:inline-block;
+   margin:0px 30px;
+   }
+   
+   .footer .row a i{
+   font-size:2em;
+   margin:0% 1%;
+   }
+   
+   @media (max-width:720px){
+   .footer{
+   text-align:left;
+   padding:5%;
+   }
+   .footer .row ul li{
+   display:block;
+   margin:10px 0px;
+   text-align:left;
+   }
+   .footer .row a i{
+   margin:0% 3%;
+   }
+   }
